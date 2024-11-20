@@ -1,0 +1,122 @@
+header, footer {
+    background-color: 
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    text-align: center;
+}
+
+#scannerContainer {
+    position: relative;
+    width: 500%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+#startScanBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 40px; /* Larger padding for the button */
+    font-size: 24px; /* Larger font size for the button */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+#startScanBtn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+/* General Resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header, main, footer {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+/* Form and Sections */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #004494;
+}
+
+section {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+s
